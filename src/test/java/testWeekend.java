@@ -1,3 +1,4 @@
+import Warmup1.weekend;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -7,7 +8,7 @@ public class testWeekend {
     @Test
     public void  weekendTest(){
 
-        boolean result =weekend.sleepIn(false,false);
+        boolean result = weekend.sleepIn(false,false);
         boolean result2 =weekend.sleepIn(true,false);
         boolean result3 =weekend.sleepIn(false,true);
         boolean expect =true;
